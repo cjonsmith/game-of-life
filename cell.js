@@ -5,6 +5,6 @@ function Cell(x, y) {
 
 	this.show = function() {
 		fill(129, 103, 255);
-		rect(this.x, this.y, 10, 10);
+		rect(this.x, this.y, cellSize, cellSize);
 	}
 }
